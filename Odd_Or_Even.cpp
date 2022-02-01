@@ -1,0 +1,15 @@
+class Solution
+{
+public:
+    string oddEven(int N)
+    {
+        if (N % 2 == 0)
+        {
+            return "even";
+        }
+        else
+        {
+            return "odd";
+        }
+    }
+};
